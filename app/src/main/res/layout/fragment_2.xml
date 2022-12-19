@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+                android:id="@+id/iv23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:hint="2022. 02"
+                app:layout_constraintBottom_toBottomOf="@+id/iv22"
+                app:layout_constraintStart_toEndOf="@+id/iv21"
+                app:layout_constraintTop_toTopOf="@+id/iv21" />
+
+            <TextView
+                android:id="@+id/iv27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:hint="2022. 02"
+                app:layout_constraintBottom_toBottomOf="@+id/iv26"
+                app:layout_constraintStart_toEndOf="@+id/iv25"
+                app:layout_constraintTop_toTopOf="@+id/iv25" />
+
+            <TextView
+                android:id="@+id/iv22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="123,456,789원"
+                app:layout_constraintEnd_toEndOf="@+id/iv21"
+                app:layout_constraintStart_toStartOf="@+id/iv21"
+                app:layout_constraintTop_toBottomOf="@+id/iv21" />
+
+            <TextView
+                android:id="@+id/iv21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="22dp"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/iv20"
+                app:layout_constraintStart_toEndOf="@+id/iv20"
+                app:layout_constraintTop_toTopOf="@+id/iv20" />
+
+            <TextView
+                android:id="@+id/iv25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:hint="123,456,789원"
+                app:layout_constraintStart_toEndOf="@+id/iv24"
+                app:layout_constraintTop_toTopOf="@+id/iv24" />
+
+            <TextView
+                android:id="@+id/iv26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="123,456,789원"
+                app:layout_constraintEnd_toEndOf="@+id/iv25"
+                app:layout_constraintStart_toStartOf="@+id/iv25"
+                app:layout_constraintTop_toBottomOf="@+id/iv25" />
+
+            <TextView
+                android:id="@+id/iv20"
+                android:layout_width="167dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                android:hint="광주광역시 광산구 풍영로 [집합건물 철근콘크리트구조 114.493㎡]"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv16" />
+
+            <TextView
+                android:id="@+id/iv24"
+                android:layout_width="167dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="광주광역시 광산구 풍영로 [집합건물 철근콘크리트구조 114.493㎡]"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv20" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="392dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="544dp"
+                android:background="#5579E4"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="392dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="133dp"
+                android:background="#5579E4"
+                android:orientation="horizontal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+            <TextView
+                android:id="@+id/iv16"
+                android:layout_width="167dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="390dp"
+                android:hint="광주광역시 광산구 풍영로 [집합건물 철근콘크리트구조 114.493㎡]"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/iv19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:hint="2022. 02"
+                app:layout_constraintBottom_toBottomOf="@+id/iv18"
+                app:layout_constraintStart_toEndOf="@+id/iv17"
+                app:layout_constraintTop_toTopOf="@+id/iv17" />
+
+            <TextView
+                android:id="@+id/iv18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:hint="123,456,789원"
+                app:layout_constraintEnd_toEndOf="@+id/iv17"
+                app:layout_constraintStart_toStartOf="@+id/iv17"
+                app:layout_constraintTop_toBottomOf="@+id/iv17" />
+
+            <TextView
+                android:id="@+id/iv17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="3dp"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/iv16"
+                app:layout_constraintStart_toEndOf="@+id/iv16"
+                app:layout_constraintTop_toTopOf="@+id/iv16"
+                app:layout_constraintVertical_bias="0.186" />
+
+            <TextView
+                android:id="@+id/iv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:gravity="right"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/iv6"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/iv6"
+                app:layout_constraintTop_toTopOf="@+id/iv6"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/iv13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/iv8"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/iv8"
+                app:layout_constraintTop_toTopOf="@+id/iv8"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/iv14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/iv9"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/iv9"
+                app:layout_constraintTop_toTopOf="@+id/iv9"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/iv15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/iv10"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/iv10"
+                app:layout_constraintTop_toTopOf="@+id/iv10"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/iv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/iv7"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/iv7"
+                app:layout_constraintTop_toTopOf="@+id/iv7"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/iv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="13dp"
+                android:gravity="right"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/iv1"
+                app:layout_constraintStart_toEndOf="@+id/iv1"
+                app:layout_constraintTop_toTopOf="@+id/iv1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/iv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/iv3"
+                app:layout_constraintEnd_toEndOf="@+id/iv7"
+                app:layout_constraintTop_toTopOf="@+id/iv3" />
+
+            <TextView
+                android:id="@+id/iv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/iv4"
+                app:layout_constraintEnd_toEndOf="@+id/iv8"
+                app:layout_constraintTop_toTopOf="@+id/iv4" />
+
+            <TextView
+                android:id="@+id/iv10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/iv5"
+                app:layout_constraintEnd_toEndOf="@+id/iv9"
+                app:layout_constraintTop_toTopOf="@+id/iv5" />
+
+            <TextView
+                android:id="@+id/iv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/iv2"
+                app:layout_constraintEnd_toEndOf="@+id/iv6"
+                app:layout_constraintTop_toTopOf="@+id/iv2" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="111dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/linebold"
+                android:text="예상 낙찰가"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.026" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:hint="123,456,789원"
+                android:text="92,200,200원"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="112dp"
+                android:fontFamily="@font/linebold"
+                android:gravity="center"
+                android:text="기간"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/linebold"
+                android:text="인근매각통계"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="332dp"
+                android:fontFamily="@font/linebold"
+                android:text="인근매각물건"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="61dp"
+                android:fontFamily="@font/linebold"
+                android:text="3개월"
+                app:layout_constraintBottom_toBottomOf="@+id/textView38"
+                app:layout_constraintStart_toEndOf="@+id/textView38"
+                app:layout_constraintTop_toTopOf="@+id/textView38"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="69dp"
+                android:fontFamily="@font/linebold"
+                android:text="6개월"
+                app:layout_constraintBottom_toBottomOf="@+id/textView39"
+                app:layout_constraintStart_toEndOf="@+id/textView39"
+                app:layout_constraintTop_toTopOf="@+id/textView39"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:fontFamily="@font/linebold"
+                android:text="12개월"
+                app:layout_constraintBottom_toBottomOf="@+id/textView40"
+                app:layout_constraintStart_toEndOf="@+id/textView40"
+                app:layout_constraintTop_toTopOf="@+id/textView40"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:fontFamily="@font/linebold"
+                android:text="매각건수"
+                app:layout_constraintEnd_toEndOf="@+id/textView38"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView38"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/linebold"
+                android:text="평균감정가"
+                app:layout_constraintEnd_toEndOf="@+id/textView45"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView45"
+                app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/linebold"
+                android:text="평균매각가"
+                app:layout_constraintEnd_toEndOf="@+id/textView46"
+                app:layout_constraintStart_toStartOf="@+id/textView46"
+                app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/linebold"
+                android:text="매각가율"
+                app:layout_constraintEnd_toEndOf="@+id/textView47"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView47"
+                app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/linebold"
+                android:text="평균유찰횟수"
+                app:layout_constraintEnd_toEndOf="@+id/textView48"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textView48"
+                app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="102dp" />
+
+            <TextView
+                android:id="@+id/iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/textView45"
+                app:layout_constraintStart_toStartOf="@+id/guideline3"
+                app:layout_constraintTop_toTopOf="@+id/textView45" />
+
+            <TextView
+                android:id="@+id/iv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/textView46"
+                app:layout_constraintEnd_toEndOf="@+id/iv1"
+                app:layout_constraintTop_toTopOf="@+id/textView46" />
+
+            <TextView
+                android:id="@+id/iv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/textView48"
+                app:layout_constraintEnd_toEndOf="@+id/iv3"
+                app:layout_constraintTop_toTopOf="@+id/textView48" />
+
+            <TextView
+                android:id="@+id/iv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintBottom_toBottomOf="@+id/textView49"
+                app:layout_constraintEnd_toEndOf="@+id/iv4"
+                app:layout_constraintTop_toTopOf="@+id/textView49" />
+
+            <TextView
+                android:id="@+id/iv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="123,456,789원"
+                app:layout_constraintBottom_toBottomOf="@+id/textView47"
+                app:layout_constraintEnd_toEndOf="@+id/iv2"
+                app:layout_constraintTop_toTopOf="@+id/textView47" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="10dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="360dp"
+                android:fontFamily="@font/linebold"
+                android:text="소재지"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="192dp"
+                android:layout_marginBottom="245dp"
+                android:fontFamily="@font/linebold"
+                android:gravity="center"
+                android:text="감정평가액(원)"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="36dp"
+                android:fontFamily="@font/linebold"
+                android:text="매각월"
+                app:layout_constraintBottom_toBottomOf="@+id/textView44"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintTop_toTopOf="@+id/textView42" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/linebold"
+                android:gravity="center"
+                android:text="매각대금(원)"
+                app:layout_constraintEnd_toEndOf="@+id/textView42"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textView42"
+                app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+            <LinearLayout
+                android:layout_width="392dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="224dp"
+                android:background="#5579E4"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:layout_height="180dp"
+                android:background="#5579E4"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/guideline2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.239"
+                app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_begin="288dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</FrameLayout>
